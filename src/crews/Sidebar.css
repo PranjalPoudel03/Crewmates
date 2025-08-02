@@ -1,0 +1,45 @@
+/* Sidebar.css */
+.sidebar {
+  background-color: #3d3d3d;
+  width: 200px;
+  min-height: 100vh;
+  padding: 20px 10px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  color: white;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar nav li {
+  margin-bottom: 20px;
+}
+
+.sidebar nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.sidebar nav a:hover {
+  text-decoration: underline;
+}
+
+.amongus {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 50px;
+}
+.amongus {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 120px;
+  height: auto;
+}

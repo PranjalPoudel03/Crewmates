@@ -1,0 +1,75 @@
+/* AddCrew.css */
+
+body {
+  background-color: #7a7a7a;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.form-box {
+  background-color: #888;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  min-width: 200px;
+  text-align: left;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+
+.crewmate-image {
+  display: block;
+  margin: 0 auto;
+  width: 180px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+}
+
+input[type="radio"] {
+  margin-right: 8px;
+}
+
+label {
+  font-size: 1rem;
+  display: block;
+  margin-top: 8px;
+}
+
+.submit-button {
+  display: block;
+  margin: 2rem auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.submit-button:hover {
+  background-color: #ddd;
+}

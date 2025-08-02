@@ -1,0 +1,42 @@
+/* Cards.css */
+.Card {
+  background-color: #2d2d2d;
+  color: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.Card:hover {
+  transform: translateY(-5px);
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.moreButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
